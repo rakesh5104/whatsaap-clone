@@ -1,0 +1,54 @@
+body{
+    padding-LEFT: 50%;
+    overflow: hidden;
+}
+.main{
+    height: 300px;
+    width: 200px;
+    border: solid black;
+    z-index: 1px;
+    overflow: scroll;
+    scrollbar-width: none;
+    border-radius: 1em;
+    background-image: url(whatsaap\ bg.jpg);
+}
+.date {
+    background-color: aqua;
+    width: 100px;
+    margin-left: 50px;
+    position: sticky;
+    top: 35px;
+    text-align: center;
+    border-radius: 5px;
+}
+.left{
+     text-align: left;
+     background-color: rgb(2, 31, 31);
+     color: white;
+     width: 40px;
+     margin-left: 10px;
+     padding-left: 5px;
+     border-radius: 0px 5px 5px 5px ;
+     margin-top: 5px;
+}
+.right{
+     margin-left: 150px;
+    background-color: green;
+    color: white;
+    width: 40px;
+    padding-left: 5px;
+    border-radius:5px 0px 5px 5px ;
+    
+}
+.first{
+    
+    background-color: #036055;
+    height: 30px;
+    position: sticky;
+    top: 0;
+}
+.user{
+    color: white;
+    margin-left: 70px;
+   padding-top: 5px;
+}
